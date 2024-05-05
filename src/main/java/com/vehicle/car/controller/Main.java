@@ -6,24 +6,24 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String placa;
-        int ano;
-        float combustivel;
+        String licensePlate;
+        int year;
+        float fuel;
 
-        placa = "UFG-2378";
-        ano = 2020;
-        combustivel = 28.83f;
+        licensePlate = "UFG-2378";
+        year = 2020;
+        fuel = 28.83f;
 
         EletricCar eletricCar = new EletricCar();
         PetrolCar petrolCar = new PetrolCar();
 
-        eletricCar.licensePlate = placa;
-        eletricCar.year = ano;
-        eletricCar.battery = combustivel;
+        eletricCar.licensePlate = licensePlate;
+        eletricCar.year = year;
+        eletricCar.battery = fuel;
 
-        petrolCar.licensePlate = placa;
-        petrolCar.year = ano;
-        petrolCar.petrol = combustivel;
+        petrolCar.licensePlate = licensePlate;
+        petrolCar.year = year;
+        petrolCar.petrol = fuel;
 
         eletricCar.ipvaExemption();
         petrolCar.ipvaExemption();
