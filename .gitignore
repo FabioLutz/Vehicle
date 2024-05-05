@@ -1,3 +1,25 @@
+# my anotations
+anotations.txt
+setInfoGit.sh
+
+# replit
+.replit
+replit.nix
+
+# eclipse
+.settings
+.project
+.classpath
+.breakpoints
+
+# others
+.git
+.upm/
+target/
+
+# ---
+
+# DEFAULT
 # Compiled class file
 *.class
 
@@ -22,14 +44,3 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
-
-# replit
-.git
-.settings
-.project
-.classpath
-.upm/
-target/
-.replit
-replit.nix
-.breakpoints
