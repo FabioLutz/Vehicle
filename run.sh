@@ -26,7 +26,7 @@ case "$1" in
 		exit 0
 		;;
 	*)
-		echo "Opção inválida"
+		echo "Invalid option"
 		exit 0
 		;;
 esac
