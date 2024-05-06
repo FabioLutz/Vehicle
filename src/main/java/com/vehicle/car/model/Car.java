@@ -41,9 +41,10 @@ public class Car {
 
 	protected void printCarData() {
 		System.out.println(
-				"Placa: " + licensePlate +
-						"\n" +
-						"Ano: " + year);
+						   "Placa: " + licensePlate +
+						   "\n" +
+						   "Ano: " + year
+						  );
 	}
 
 }
