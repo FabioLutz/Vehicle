@@ -8,7 +8,7 @@ show_help() {
 	echo -e "Usage: sh $0 [OPTION]\n"
 	echo -e "\tAdd to staged area and commit, using Git\n"
 	echo "Options:"
-	echo "  -m MESSAGE, --message=MESSAGE"
+	echo "  -m MESSAGE, --message MESSAGE"
 	echo -e "    Add to staged area and commit using the MESSAGE.\n"
 	echo "  -r, --redo"
 	echo -e "    Redo the last commit.\n"
@@ -22,10 +22,10 @@ show_help() {
 case "$1" in
 	"")
 		;;
-	-m | --message=[*])
+	-m | --message)
 		git add .
 		git commit -m "$2"
-		git log
+		git show --stat HEAD
 		exit 0
 		;;
 	-r | --redo)
